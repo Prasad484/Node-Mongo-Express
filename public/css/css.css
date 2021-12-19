@@ -1,0 +1,168 @@
+*{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(/images/bg-intro-desktop.png);
+}
+
+.Comp{
+    display: flex;
+    flex-direction: row;
+    margin-left: -81px;
+}
+
+.Left{
+    margin-top: 18rem;
+    margin-left: 16rem;
+    font-family: system-ui;
+    font-size: 29px;
+    color: white;
+}
+
+.Left h1{
+    margin-bottom: -5px;
+    width: 29rem;
+}
+
+.Left p{
+    color: white;
+    width: 29rem;
+    font-size: 17px;
+    
+}
+
+.Right{
+    padding-left: 17.5rem;
+    padding-top: 6rem;
+}
+
+.Try{
+    background: hsl(248, 32%, 49%);
+    padding: 20px;
+    width: 33rem;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    box-shadow: 1px 1px 1% rgba(red, green, blue, 1%);
+    margin-left: -13px;
+}
+
+.Try span{
+    background: hsl(248, 32%, 49%);
+    font-weight: bold;
+}
+
+.SignUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 31rem;
+    margin-top: 1.5rem;
+    border-radius: 17px;
+    width: 38rem;
+    margin-left: -3rem;
+}
+
+.SignUp form {
+    background-color: white;
+}
+
+.SignUp form input{
+    background-color: white;
+}
+
+#form{
+    background-color: white;
+    backface-visibility: hidden;
+    background-blend-mode: color;
+}
+
+.form-control{
+    background: white;
+    height: 67px;
+    width: 34rem;
+    margin-top: 1rem;
+}
+
+#First{
+    background: white;
+    border: 1px solid #a7a7ad;
+    height: 52px;
+    /* height: 50px; */
+    width: 32rem;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 5px;
+    font-size: larger;
+    margin-left: 18px;
+}
+
+.ErrLogo{
+    margin-left: 31rem;
+    margin-bottom: 28px;
+    border-radius: 10px;
+    display: inline;
+    margin-top: -31rem;
+}
+
+.Error{
+    background: white;
+    margin-left: 22rem;
+    color: #f31010;
+    font-size: 14px;
+    margin-left: 23.5rem;
+    display: inline;
+}
+
+#Second{
+    background: white;
+    border: 1px solid #a7a7ad;
+    height: 52px;
+    width: 32rem;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-size: larger;
+    margin-left: 18px;
+}
+
+#Third{
+    background: white;
+    border: 1px solid #a7a7ad;
+    height: 52px;
+    width: 32rem;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 32px;
+    font-size: larger;
+    margin-left: 18px;
+}
+
+#Fourth{
+    background: white;
+    border: 1px solid #a7a7ad;
+    height: 52px;
+    width: 32rem;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 46px;
+    font-size: larger;
+    margin-left: 18px;
+}
+
+.Claim{
+    background: hsl(154, 59%, 51%);
+    margin-top: 5rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    width: 32.3rem;
+    border-radius: 6px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-family: system-ui;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 18px;
+}
